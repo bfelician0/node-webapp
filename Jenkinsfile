@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git credentialsId: 'https://github.com/bfelician0/node-webapp.git', 
+                git credentialsId: 'https://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@github.com/bfelician0/node-webapp.git', 
                     url: 'https://github.com/bfeliciano/node-webapp.git', 
                     branch: 'main'
             }
