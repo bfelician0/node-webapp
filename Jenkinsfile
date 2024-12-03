@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'linux-node' } // Use the configured agent
+    agent { label 'linux-node' }
     
     stages {
         stage('Checkout') {
